@@ -9,7 +9,7 @@ center_cards = []
 tie = true
 turn = 1
 
-until player1_hand.length == 1 || player2_hand.length == 1
+until player1_hand.length == 0 || player2_hand.length == 0
   puts "Turn #{turn}"
   puts "Player A: #{player1_hand[0]}"
   puts "Player B: #{player2_hand[0]}"
